@@ -1,0 +1,31 @@
+.card1{
+    width: 300px;
+    height:200px;
+}
+.sectionp1{
+    padding-top: 100px;
+}
+.cardborder{
+    border: none;
+}
+.carousel-indicators li{
+    background-color: #0a0909; /* Set the color of the inactive indicators */
+    border-radius: 50%;/* Set border-radius to 50% to make circles */
+    width: 5px; /* Set the width of the circle */
+    height: 5px; /* Set the height of the circle */
+    margin: 0 3px; /* Set margin between indicators */
+    
+  }
+  imgbooklist{
+    display: flex;
+    justify-content: space-between;
+  }
+  body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+.btntype{
+    width: 200px;
+    height: auto;
+    padding: 10px;
+
+}

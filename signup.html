@@ -33,7 +33,7 @@
         </div>
       </nav>
       <section class="vh-100" style="outline: none;">
-        <div class="container w-75 h-auto sectionp1">
+        <div class="container w-100 h-auto sectionp1">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-lg-12 col-xl-11">
               <div class="card text-black" style="border: none;">
@@ -46,34 +46,66 @@
                       <form class="mx-1 mx-md-4">
       
                         <div class="d-flex flex-row align-items-center mb-2">
+                          <div class=" col-sm-6">
                           <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
-                            <input type="text" id="form3Example1c" class="form-control" />
-                            <label class="form-label" for="form3Example1c">Your Name</label>
+                            <input type="text" id="name" class="form-control"  placeholder=" Your Name"/>
+                           
+                            <label class="form-label text-dark-50" for="form3Example1c"  ></label>
                           </div>
-                        </div>
+                          </div>
+
+                       
+                        <div class=" col-sm-6">
       
-                        <div class="d-flex flex-row align-items-center mb-2">
+                        <!--<div class="d-flex flex-row align-items-center mb-2">-->
                           <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
-                            <input type="email" id="form3Example3c" class="form-control" />
-                            <label class="form-label" for="form3Example3c">Your Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email"/>
+                            
+                            <label class="form-label" for="form3Example3c"></label>
                           </div>
                         </div>
+                        </div>
+                        
+                        <div class="d-flex flex-row align-items-center mb-2">
+                          <div class=" col-sm-6">
+                          <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="text" id="password" class="form-control"  placeholder=" Password"/>
+                            
+                            <label class="form-label text-dark-50" for="form3Example1c"  ></label>
+                          </div>
+                          </div>
+
+                       
+                        <div class=" col-sm-6">
+      
+                        <!--<div class="d-flex flex-row align-items-center mb-2">-->
+                          <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                          <div class="form-outline flex-fill mb-0">
+                            <input type="email" id="repeatpassword" class="form-control" placeholder="repeat password"/>
+                            
+                            <label class="form-label" for="form3Example3c"></label>
+                          </div>
+                        </div>
+                        </div>
+                        
       
                         <div class="d-flex flex-row align-items-center mb-2">
                           <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
-                            <input type="password" id="form3Example4c" class="form-control" />
-                            <label class="form-label" for="form3Example4c">Password</label>
+                            <input type="number" id="phonenumber" class="form-control" placeholder="phone number"/>
+                            
+                            <label class="form-label" for="form3Example4c"></label>
                           </div>
                         </div>
       
                         <div class="d-flex flex-row align-items-center mb-2">
                           <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                           <div class="form-outline flex-fill mb-0">
-                            <input type="password" id="form3Example4cd" class="form-control" />
-                            <label class="form-label" for="form3Example4cd">Repeat your password</label>
+                            <input type="password" id="address" class="form-control" placeholder="address"/>
+                            
                           </div>
                         </div>
       
@@ -85,7 +117,7 @@
                         </div>
       
                         <div class="d-flex justify-content-center mx-2 mb-3 mb-lg-2">
-                          <a href="successsignup.html" style="text-decoration: none;"><button type="button" class="btn   btn-lg btntype" style="color:rgb(183, 169, 133);">SignUP</button></a>
+                          <a href="successsignup.html" style="text-decoration: none;"><button type="button" class="btn   btn-lg btntype" style="color:rgb(183, 169, 133);" onclick=" return validateForm()">SignUP</button></a>
                         </div>
       
                       </form>
@@ -104,7 +136,9 @@
           </div>
         </div>
       </section>
+      
       <footer class="footer  small text-center text-dark-50 h-auto bg-black"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+    <script src="validate.js"></script>
     </body>
     </html>
       
